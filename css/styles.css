@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#responseSection {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 80%;
+    text-align: left;
+}
+
+#promptResponse {
+    margin: 0;
+    padding: 0;
+}
